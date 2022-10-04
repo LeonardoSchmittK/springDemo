@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MeuPrimeiroControler {
     @GetMapping("/nome")
     public String getMeuNome(){
-        return "Leonardo :)";
+        return "Leonardo Schmitt:)";
     }
     @GetMapping("/idade")
     public int getMinhaIdade(){
